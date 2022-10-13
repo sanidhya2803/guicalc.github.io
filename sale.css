@@ -1,0 +1,91 @@
+body{
+    background-color:honeydew;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    position: fixed;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: gray;
+    border-width: 20px;
+    border-radius: 15px;
+    padding-bottom: 18px;
+    width: 325px;
+
+}
+
+.display{
+    width: 100%;
+    height: 60px;
+    padding: 40px,0px,40px;
+    background:gray;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.buttons{
+    padding: 20px 20px 0 20px;
+
+
+}
+
+.row{
+    width: 280px;
+    float: left;
+
+}
+
+.btn:hover{
+    background-color:lavender;
+    color:chocolate;
+
+}
+
+input[type=button]{
+    width: 60px;
+    height: 60px;
+    float: left;
+    padding: 0;
+    margin: 5px;
+    box-sizing: border-box;
+    background-color:black;
+    font-size: 30px;
+    line-height: 30px;
+    border-radius: 35%;
+    font-weight: 700;
+    color:wheat;
+    cursor: pointer;
+    border-width:10px;
+}
+
+input[type=text]{
+    width: 315px;
+    height: 60px;
+    float: left;
+    padding: 0;
+    box-sizing: border-box;
+    border-width:5px;
+    background-color:wheat;
+    color: rgb(28, 4, 4);
+    text-align: right;
+    font-weight: 600;
+    font-size: 40px;
+    margin-top:5px;
+    margin-left:5px;
+    margin-right:5px;
+    border-radius: 15px;
+}
+
+.blue{
+    background-color: tomato;
+    color: white;
+    border-width:5px;
+}
+
+.blue:hover{
+    background-color:lavender;
+    color:chocolate;
+}
